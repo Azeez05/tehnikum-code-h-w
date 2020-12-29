@@ -1,0 +1,15 @@
+start = 0
+end = 100
+a = start
+s = 0
+
+while a < end+1:
+    if a == end:
+        print(end, end='\n')
+    else:
+        print(a, end='+')
+
+    s += a
+    a = a + 1
+
+print("Сумма:", s)
